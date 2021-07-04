@@ -151,6 +151,7 @@ ul {
   line-height: 16px;
   letter-spacing: 0.02em;
   text-decoration: none;
+  color: var(--text-color);
 }
 /* Изменяет стили и цвет header контакты */
 .link-contact {
