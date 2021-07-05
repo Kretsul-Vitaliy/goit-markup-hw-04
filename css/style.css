@@ -155,6 +155,8 @@ ul {
 }
 /* Изменяет стили и цвет header контакты */
 .link-contact {
+  display: flex;
+  align-items: center;
   text-decoration: none;
   font-style: normal;
   font-weight: 500;
@@ -162,6 +164,7 @@ ul {
   line-height: 16px;
   letter-spacing: 0.02em;
   color: var(--portfolio-color-title);
+  padding: 32px 0px;
 }
 /* Изменяет курсор на кнопке заказать услугу в секции3 */
 .section-hero-button {
@@ -399,6 +402,14 @@ img {
 .link-contact .header-list-mail-icon {
   width: 16px;
   height: 12px;
-  margin-right: 11px;
+  margin-right: 10px;
   fill: currentColor;
+}
+
+.link-contact .header-list-phone-icon {
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+  fill: currentColor;
+  display: inline-block;
 }
