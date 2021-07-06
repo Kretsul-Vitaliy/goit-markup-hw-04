@@ -12,6 +12,7 @@
   --portfolio-color-title: #757575;
   --hero-background-color: #2f303a;
   --footer-item-color: rgba(255, 255, 255, 0.6);
+  --social-icon-color: #afb1b8;
 }
 body {
   font-family: 'Roboto', sans-serif;
@@ -404,17 +405,46 @@ img {
   cursor: pointer;
 }
 
-.link-contact .header-list-mail-icon {
-  width: 16px;
-  height: 12px;
+.link-contact .header-list-icon {
   margin-right: 10px;
   fill: currentColor;
 }
 
-.link-contact .header-list-phone-icon {
-  width: 10px;
-  height: 16px;
-  margin-right: 10px;
-  fill: currentColor;
-  display: inline-block;
+.features-list .features-item .features-item-wallpaper {
+  background-color: var(--portfolio-button-color);
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  height: 120px;
+}
+
+.team-social-list .team-social-item .team-social-link {
+  display: flex;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  color: var(--accent-color);
+}
+.team-social-list {
+  display: flex;
+  margin-top: 16px;
+}
+.team-social-icon {
+  fill: var(--social-icon-color);
+}
+.team-social-link:hover .team-social-icon,
+.team-social-link:focus .team-social-icon {
+  fill: var(--primary-white-color);
+}
+
+.team-social-item + .team-social-item {
+  margin-left: 10px;
+}
+.team-social-link:hover,
+.team-social-link:focus {
+  background-color: var(--accent-color);
 }
