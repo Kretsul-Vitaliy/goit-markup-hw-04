@@ -387,6 +387,14 @@ ul {
   margin-left: 30px;
   margin-top: 30px;
 }
+
+.portfolio-item:hover,
+.portfolio-item:focus {
+  cursor: pointer;
+  box-sizing: border-box;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
 .hero-portfolio {
   padding-top: 94px;
   padding-bottom: 34px;
@@ -405,6 +413,8 @@ img {
   background-color: var(--accent-color);
   color: var(--primary-white-color);
   cursor: pointer;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .link-contact .header-list-icon {
