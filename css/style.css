@@ -139,10 +139,8 @@ p {
 /* Делаем цвет фона footer */
 .footer-background {
   background-color: var(--hero-background-color);
-
-  max-width: 1600px;
-  margin: 0px auto;
-  display: flex;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 /* Убираем маркеры в списках */
 ul {
@@ -517,10 +515,7 @@ img {
 
 .footer-section {
   display: flex;
-  padding-left: 215px;
-  padding-top: 60px;
-  padding-bottom: 60px;
-  height: 252px;
+  align-items: baseline;
 }
 .logo-adress {
 }
